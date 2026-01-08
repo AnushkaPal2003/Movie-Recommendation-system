@@ -36,9 +36,8 @@ set_bg("images/realistic.jpg")
 
 
 # Load data
-df = pickle.load(open("D:\\Movie Reccommendation system\\film.pkl", "rb"))
-similarity = pickle.load(open("D:\\Movie Reccommendation system\\similarity.pkl", "rb"))
-
+df = pickle.load(open("film.pkl", "rb"))
+similarity = pickle.load(open("similarity.pkl", "rb"))
 
 # Recommendation function
 def recommend(movie):
