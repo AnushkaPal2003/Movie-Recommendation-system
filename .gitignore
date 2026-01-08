@@ -1,0 +1,43 @@
+
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit config
+.streamlit/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.env
+*.env
+
+# Conda environment files
+*.yml
+*.yaml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Model artifacts
+
+*.pkl
+
+# Excel exports
+*.xlsx
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
