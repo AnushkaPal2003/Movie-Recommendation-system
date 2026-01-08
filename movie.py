@@ -31,7 +31,7 @@ def set_bg(image_file):
     """
     st.markdown(page_bg, unsafe_allow_html=True)
 
-set_bg("D:\\Movie Reccommendation system\\realistic.jpg")
+set_bg("images\realistic.jpg")
 
 
 
